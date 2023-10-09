@@ -32,4 +32,24 @@ Before running the program, make sure you have Python installed on your system.
 
 ```bash
 python file_organizer.py
+```
 
+## Automation (Windows)
+
+If you're using this program on a Windows machine and want to automate its execution, consider following these steps:
+
+1. **Convert to .exe using PyInstaller**: You can convert the Python script `file_organizer.py` into a standalone executable (.exe) file using a tool like [PyInstaller](https://www.pyinstaller.org/). This will make it easier to run the program without needing to open a terminal or command prompt each time.
+
+   To do this, open a command prompt or terminal and navigate to the directory containing `file_organizer.py`. Then, run the following command (make sure you have PyInstaller installed):
+
+   ```bash
+   pyinstaller --onefile file_organizer.py
+   ```
+This command will generate a standalone .exe file in the dist directory within your project folder.
+
+Set Up Task Scheduler: After converting the script to an .exe file, you can use Windows Task Scheduler to automate the program's execution at specified intervals.
+
+Search for "Task Scheduler" in the Windows Start menu and open it.
+In the Task Scheduler, create a new task and configure it to run the .exe file you generated in step 1. You can set the task to run daily, weekly, or at any desired interval.
+Make sure to configure the task with appropriate permissions and triggers based on your requirements.
+By following these steps, you can automate the file organization process on your Windows machine, ensuring that files in your specified directory are sorted into their respective categories automatically.
