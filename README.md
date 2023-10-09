@@ -1,6 +1,6 @@
 # File Organizer
 
-Author: Alex Fails
+Author: Zanderskier
 Date: 30th November 2022
 Purpose: This Python program automates the organization of files in a specified folder by sorting them into different categories.
 
