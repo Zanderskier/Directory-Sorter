@@ -1,5 +1,5 @@
 '''
-Author: Alex Fails
+Author: Zanderskier
 Date: 30112022 ddmmyyyy
 Purpose: This program will automate file organization of the specified folder
 '''
